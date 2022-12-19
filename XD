@@ -3,6 +3,8 @@
  * play.kotlinlang.org
  */
 fun main() {
+    println("Hello, world!!!")
+/*
 	println("Goku - olá tudo bom?")
 	println("Toddynho - Salve,")
 	println("Goku - COD")
@@ -14,4 +16,50 @@ fun main() {
 	println("Narrador - E os dois jogaram durante toda a tarde")
 	println("Toddynho - Então, você vai querer o Cholocate?")
 	println("Goku - Sim")
+    */
+    // Var - Mutável - Seu valor pode ser alterado
+    // VAL - Não Mutavel - Seu valor Não pode ser alterado
+    // 
+    //  TIPOS DE VARIÁVEIS (Principais )
+    //  
+    // String - tipo de váriavel que armazena textos no geral (caracteres) 
+    // Dentro de aspas ""
+    // Boolean - Verdadeiro ou falso, Sim ou não 1 ou 0
+    // Int - Números inteiros
+    // Float - Números reais (com um número baixo de casas decimais)
+    // Double - Números Reais (Com número alto de casas decimais)
+    // long - Números reais (número altissimo de casas decimais(número completo ))
+    // 
+    /*
+    var nome  = "messi"
+    var idade = 35
+    var theBest = 7
+    
+    // println(messi)
+    println("O nome dele é " + nome + ", a idade dele é " + idade +
+            ", e ele já foi " + theBest + " vezes o the Best" )
+    println("O nome $nome , a idade dele é $idade , é ele já foi $theBest vezes o the Best ")
+    
+  
+  //Exercício
+  
+  //faça uma apresentação de si mesmo dizendo nome, idade, pais e cidade através de variáveis
+  */
+    
+    var nome = "Santiago"
+    var idade = 13
+    var pais = "Venezuela"
+    var cidade  = "São Paulo"
+    
+    println("Meu nome é $nome , tenho $idade , nasci em $pais , moro em $cidade")
+  
+    
+    
+   
+    
+    
+    
+  
+  
+  
 }
