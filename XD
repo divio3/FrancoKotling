@@ -46,16 +46,104 @@ fun main() {
   //faça uma apresentação de si mesmo dizendo nome, idade, pais e cidade através de variáveis
   */
     
-    var nome = "Santiago"
+    val nome = "Santiago"
     var idade = 13
     var pais = "Venezuela"
     var cidade  = "São Paulo"
     
-    println("Meu nome é $nome , tenho $idade , nasci em $pais , moro em $cidade")
+    println("olá, eu sou $nome , tenho $idade , meu pais é a $pais , e , minha cidade é $cidade")
+    
+    var num1 = 90
+    var num2 = 50
+  
+    println(num1 + num2)
+    
+    /*
+     //Operadores Lógicos
+     //  - subtração
+     //  + adição
+     //  * multiplicação
+     //  / divisão
+     //  % módulo
+    */
+    
+     println(7%2 )
+     
+    /*
+    //Operadores Relacionais
+    //
+    // = -> Para dar valor a algo
+    // == -> Igual a algo
+    // != -> Diferente a algo
+    // > -> maior que
+    // < -> menor que
+    // >= -> maior ou igual a
+    // <= -> menor ou igual a
+    // ++ -> adicionar 1 para o valor
+    // -- -> subtrair 1 para o valor
+    // 
+    // 
+    // 
+    */
+    var num = 0
+    num++
+    println(num)
+    
+    /* If e else simples 
+     * Estrutura:
+     * 
+     * if(condição){ações}else{ação}
+     * 
+     */
+     
+     var Dia = 21
+    if(Dia <= 21){
+        println("Hoje tem aula ")
+    }
+    else{
+        println("Hoje não tem aula ")
+    }
+    
+    /* If e else composto
+     *  if(condição){
+     * ação
+     * }else if(condição){
+     *ações
+     * }else if(condição){
+     * ação}else{
+     * ação
+     * }
+     * 
+    */
+    var vidas = 5
+    
+    if(vidas <= 0){
+             println("tu tá morto")
+    }else if(vidas == 1){
+              println("tu ta morrendo")
+    }else if (vidas == 2){
+              println("cê não ta muito bem, se cuida ae")
+    }else if (vidas == 3){
+        println("tu não ok, só come menos miojo")
+    }else if (vidas == 4){
+            
+        println("cê ta de boa, vai curtir")
+    }
+    else{
+        println("ce ta de boa, vai JOGAR POKER")
+    }
+    
+    
+     
+    
+   
   
     
     
-   
+    
+    
+    
+    
     
     
     
