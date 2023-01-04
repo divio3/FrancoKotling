@@ -1,8 +1,6 @@
-/**
- * You can edit, run, and share this code.
- * play.kotlinlang.org
- */
+
 fun main() {
+    /*
     println("Hello, world!!!")
 /*
 	println("Goku - olá tudo bom?")
@@ -115,7 +113,7 @@ fun main() {
      * }
      * 
     */
-    var vidas = 5
+     var vidas = 5
     
     if(vidas <= 0){
              println("tu tá morto")
@@ -131,23 +129,81 @@ fun main() {
     }
     else{
         println("ce ta de boa, vai JOGAR POKER")
-    }
     
+     var numero1 = 41
+     var numero2 = 10
     
-     
-    
-   
-  
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  
-  
-  
+  if(numero1 > numero2){
+      println(numero1)
+  }else{
+      println(numero2)
+  }
+  */
+  /*
+  var a = 20
+
+        if(a > 0){
+            println("o numero é maior que 0 ")
+       
+            }else if(a < 0){
+                println("o numero é menor que zero ")
+            }else{
+                println("o numero é igual que zero")
+                
+            }
+            */
+
+/*
+ * Operadores lógicos
+ * && ->e
+ *  || -> ou
+ */
+ /*
+ var coracoes = 20
+ var vidas = 10
+ 
+
+if(coracoes <= 0 && vidas <= 0){
+    println("game over")
+}else{
+    printl("jogo vai ser reiniciado")
 }
+  */
+      /* When - Quando 
+       * 
+       */
+       var mes = 3
+       
+       when(mes){
+           1 -> {println("janeiro")}
+           2 -> {println("fevereiro")}
+           3 -> {println("março")}
+           4 -> {println("abril")}
+           5 -> {println("maio")}
+           6 -> {println("junho")}
+           7 -> {println("julho")}
+           8 -> {println("Agosto")}
+           9 -> {println("setembro")}
+           10 -> {println("outubro")}
+           11 -> {println("novembro")}
+           else -> {println("dezembro")}
+       }
+           
+           
+           
+       }
+      
+  
+  
+    
+
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  
