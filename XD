@@ -172,6 +172,7 @@ if(coracoes <= 0 && vidas <= 0){
       /* When - Quando 
        * 
        */
+    /*
        var mes = 3
        
        when(mes){
@@ -188,12 +189,114 @@ if(coracoes <= 0 && vidas <= 0){
            11 -> {println("novembro")}
            else -> {println("dezembro")}
        }
+       */
+           // Laços de repetição - repetem quando uma determinada ação quando uma
+           //  determinada condição for verdadeira
+           // 
+           //
+           // while -> Enquanto
+           //
+           // do.. While -> faça..enquanto
+           // 
+           // for -> para 
+           // 
+           //  repeat -> repita
+           //  
+           //  -----------------------
+           //  
+           //  repeat - repita
+           //  
+           //  estrutura do repeat
+           //  
+           //  repeat(vezes que vai ser repetido){
+           //  ações
+           //  }
+           //  
+           //  
+          /* 
+           repeat(50*25){
+               println("por ordem dos peaky blinders")
+           }
+           */
+           
+           //laço while - enquanto
+           //
+           //Estrutura while
+           //
+           //While(condição){
+           //ações
+           //}
+           /*
+           var dia = 360;
+           
+           while(dia <= 365){
+               println(dia)
+               dia++
+           }
+           */
+    
+    
+           //laço do.. while -> faça enquanto
+           //
+           //executa a açai enquanto for vadadeira
+           //
+           //estrutura do do..while
+           //
+           //
+           // do{
+           // ação
+           // }while(condição)
+           /*
+           var dia = 360
+    
+           do{
+               println(dia)
+               dia++
+           }while(dia <= 365)
+           */
+    
+           
+           //exercício - faça um programa, utilizando while, 
+           //que mostre no console os números de 0 a 100
+           /*
+           var dia = -1 
+    
+           while(dia < 100){
+               
+               dia++
+               println(dia)
+           }
+           */
+    
+            //faça um programa utilizando 2 variaveis, e que mostre no console, os numeros de 0 ate N,
+            //onde N(você decide o valor) é o valor de uma das variaveis
+            
+            var num = 0
+    
+            var N = 250
+    
+            
+            while(num <= num2){
+                println(num)
+                num++}
+
+            
+           
+    
+            
+    
+    
+    
+    
+           
+           
+           
            
            
            
        }
       
-  
+      
   
     
 
