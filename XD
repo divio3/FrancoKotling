@@ -270,25 +270,54 @@ if(coracoes <= 0 && vidas <= 0){
     
             //faça um programa utilizando 2 variaveis, e que mostre no console, os numeros de 0 ate N,
             //onde N(você decide o valor) é o valor de uma das variaveis
-            
+            /*
             var num = 0
     
             var N = 250
     
             
-            while(num <= num2){
+            while(num <= N){
                 println(num)
                 num++}
 
+            */
+    
+    
+    
+    
+           /*
+            * laço for - para
+            *  Estrutura do for
+            * 
+            * for(i in interválo/conllection)
+            * {
+            * ações
+            * }
+            */
+    /*
+              for(alunos in 1..19){
+                 println("Feliz ano novo!!")
+             }
+              */
+              //Faça uma tabuada de um número(que não seja a do 1 e do 0)
+              //até o décimo multiplo usando, o Laço for
             
-           
+            /*
     
-            
+           for(i in 0..10){
+                println(i*9)
+                    
+              
+                  
+                
+                
+                
+           }
+           */     
+              
     
     
-    
-    
-           
+   
            
            
            
@@ -298,15 +327,4 @@ if(coracoes <= 0 && vidas <= 0){
       
       
   
-    
-
-    
-    
-    
-    
-    
-    
-    
-  
-  
-  
+   
